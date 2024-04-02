@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_PRC_MONITOR</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>PRC Process Monitor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_MONITOR</CLSNAME>
+     <CMPNAME>ATTACH_WP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Attaches the current WP to the Process</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_MONITOR</CLSNAME>
+     <CMPNAME>DEREGISTER_PID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Deregister process by input ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_MONITOR</CLSNAME>
+     <CMPNAME>GARBAGE_COLLECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Cleans broken processes out</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_MONITOR</CLSNAME>
+     <CMPNAME>GET_WP_AVAIL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check if work processes are available for the user</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_MONITOR</CLSNAME>
+     <CMPNAME>HAS_PROCESSES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check if the user / session ID has processes running</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_MONITOR</CLSNAME>
+     <CMPNAME>MAX_WORK_PROCESSES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set the number of parallel processes to launch</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_MONITOR</CLSNAME>
+     <CMPNAME>PID_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check if the input ID exists</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_MONITOR</CLSNAME>
+     <CMPNAME>REGISTER_PID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Register process returning the ID</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_PRC_FUTURE_EXECUTOR</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>PRC Completion Monitor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_FUTURE_EXECUTOR</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_FUTURE_EXECUTOR</CLSNAME>
+     <CMPNAME>DEREGISTER_PID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Public for FM module access ONLY</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_FUTURE_EXECUTOR</CLSNAME>
+     <CMPNAME>MV_TIMEOUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Timeout in seconds</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_FUTURE_EXECUTOR</CLSNAME>
+     <CMPNAME>SUBMIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Submit a Callable Completion Process</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

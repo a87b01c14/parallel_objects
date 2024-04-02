@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>PRC Completion Monitor Access(in shared memory)</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <CLSSHAREDMEMORY>X</CLSSHAREDMEMORY>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>GET_RESULT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the result</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>GET_WP_AVAIL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Number of parallel processes avail for user / session id</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>GET_WP_MAX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Maximum parallel processes for user / session id</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>HAS_PROCESSES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check if processes exist(by username)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>INCREASE_PID_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Increase the buffer of available PIDS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>IS_COMPLETE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check if the callable completed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>MT_REGISTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process Register</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>MT_WP_COUNT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Work Process Count</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>NUMBER_OF_PROCESSES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set the number of processes to use</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>POP_PID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Pop the next PID off the list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>PUSH_PID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Push a PID back onto the available list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>SET_RESULT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set the result for the execution</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PRC_EXECUTOR_ACCESS</CLSNAME>
+     <CMPNAME>SET_WP_AVAIL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set the current wp count for user / session id</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
